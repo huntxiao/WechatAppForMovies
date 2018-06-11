@@ -1,0 +1,33 @@
+<view  class="banxin">
+    <view class='banxin2'></view>
+    <view class='header'>
+    <image class="shenhai2" src="{{moviedata.images.large}}"></image>
+    </view>
+    <image class="shenhai" src='{{moviedata.images.small}}'></image>
+    <view class='wenzi'>
+        <view class='ws'>{{moviedata.alt_title}}</view> 
+        <view class='wb'>{{moviedata.original_title}}</view>
+        <view class='wss'>{{moviedata.rating.average}}</view>
+        <view class='wsr'>{{moviedata.ratings_count}}人评价</view>
+    </view>
+    <view class='jianjie'>
+        <view>
+        <text>{{moviedata.genres[0]}}/</text> 
+        <text>{{moviedata.genres[1]}}</text></view>
+        <view>
+        <text>{{moviedata.countries[0]}}</text>
+        </view>
+        <view><text>{{moviedata.director.name}}(导演)/</text>
+        <text>{{moviedata.cast}}</text></view> 
+    </view>
+    <view class='biaodan'>
+        <view class='xiang' bindtap='gotosee' hover-class="color:#FFD400;">想看</view>
+        <view class='kan' bindtap='gosaw'>看过</view>
+    </view>
+   <view>
+        <view class='xiaojian'><text>{{moviedata.alt_title}}</text>的剧情简介</view>
+        <view class='jieshao'>
+            <view>{{moviedata.summary}}</view>
+        </view>
+   </view>
+</view>

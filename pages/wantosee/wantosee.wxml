@@ -1,0 +1,7 @@
+<!--wantosee/wantosee.wxml-->
+<!-- <text>wantosee/wantosee.wxml</text> -->
+<view class='want'>想看</view>
+<textarea class='liyou' type="text" placeholder='记录一下想看的理由' placeholder-style='font-size:30rpx;'></textarea>
+<form class='tijiao' bindsubmit='quedingsubmit'>
+    <button class='yes' type="warn" form-type='submit'>确定</button>
+</form>

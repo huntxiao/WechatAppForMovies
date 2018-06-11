@@ -1,0 +1,116 @@
+/* pages/paper/paper.wxss */
+.banxin{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.header{
+  width: 375px;
+  height: 150px;
+  overflow: hidden;
+}
+ .shenhai2{
+   width: 800rpx;
+   height:800rpx;
+   overflow: hidden;
+ }
+ .banxin2{
+   position: absolute;
+   width: 375px;
+   height: 150px;
+   background-color:rgba(0, 0, 0, 0.8); 
+ }
+ .shenhai{
+   width: 215rpx;
+   height: 272rpx;
+   /* margin-top:-50px;  */
+   position: absolute;
+   top:60rpx;
+   left: 50rpx;
+ }
+ .wenzi{
+   /* border:1px solid #fff; */
+   width: 250rpx;
+   height:300rpx; 
+   position: absolute;
+   color: #fff;
+   top:70rpx;
+   left: 300rpx;  
+   line-height: 70rpx;
+ }
+ .wb{
+   font-size: 40rpx;
+   width: 500rpx;
+   height: 300rpx;
+ }
+ .wss{
+   font-size:30px; 
+   position: absolute;
+   top:165rpx;
+ }
+ .wsr{
+   position: absolute;
+   top:172rpx;
+   left: 105rpx;
+   font-size: 22rpx;
+ }
+ .jianjie{
+   margin: 0 auto;
+   width: 700rpx;
+   margin-top:50rpx;
+   height: 300rpx;
+   font-size:28rpx; 
+   /* border:1px solid #333; */
+   display:block ;
+   white-space: pre-wrap;
+ }
+ .biaodan{
+   margin: 0 auto;
+   margin-top:-100rpx;
+   /* border:1px solid #333; */
+   width: 700rpx;
+   height: 60rpx;
+ }
+ .xiang{
+   position: absolute;
+   width: 300rpx;
+   height: 50rpx;
+   border-radius:15rpx;
+   background-color: #fff;
+   color:#FFD400;
+   line-height: 45rpx;
+   font-size: 30rpx;
+   border:1px solid #FFD400;
+   text-align:center;
+ }
+ .kan{
+   position: absolute;
+   margin-left:400rpx; 
+   border-radius:15rpx;
+   width: 300rpx;
+   height: 50rpx;
+   background-color: #fff;
+   font-size: 30rpx;
+   color: #FFD400;
+   line-height: 45rpx;
+   border:1px solid #FFD400;
+   text-align:center;
+ 
+ }
+ .xiaojian{
+   position: absolute;
+   width: 300rpx;
+   height: 100rpx;
+   margin-top:-60rpx; 
+   margin-left:25rpx;  
+   font-size: 30rpx;
+   color: #CCCCC6;
+ }
+ .jieshao{
+   width: 700rpx;
+   height:500rpx;
+   margin: 0 auto;
+   margin-top:100rpx;
+   font-size: 30rpx;
+ }
+ 

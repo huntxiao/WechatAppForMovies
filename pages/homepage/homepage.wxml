@@ -1,0 +1,26 @@
+<!--pages/me/me.wxml-->
+<view class='view'>
+  <text class='recent'>近期上映</text>
+  <text class='recentmore' bindtap='recentmore'>更多></text>
+</view>
+<scroll-view scroll-x style="width:100%;">
+<view class='recentmovies'>
+  <view wx:for="{{movdata1.subjects}}" wx:for-index="idx" wx:for-item="movie" wx:if="{{idx<7}}">
+    <navigator url='../paper/paper?id={{movie.id}}'><image src="{{movie.images.small}}" mode='aspectFit'/>
+    <text>{{movie.title}}</text><text>豆瓣评分：{{movie.rating.average}}</text></navigator>
+  </view>
+</view>
+</scroll-view>
+
+<view class='view'>
+  <text class='coming'>即将上映</text>
+  <text class='comingmore' bindtap='comingmore'>更多></text>
+</view>
+<scroll-view scroll-x style="width: 100%">
+<view class='comingmovies'>
+  <view wx:for="{{movdata2.subjects}}" wx:for-index="idx" wx:for-item="movie" wx:if="{{idx<7}}">
+    <navigator url='../paper/paper?id={{movie.id}}'><image src="{{movie.images.small}}" mode='aspectFit'/>
+    <text>{{movie.title}}</text><text>豆瓣评分：{{movie.rating.average}}</text></navigator>
+  </view>
+</view>
+</scroll-view>

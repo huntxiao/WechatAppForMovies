@@ -1,0 +1,65 @@
+/* pages/me/me.wxss */
+page{
+  background-color: #ddd;
+}
+.view{
+  display: flex;
+  line-height:30px;
+  font-family: 微软雅黑;
+  font-weight: bold;
+  background-color: #555;
+}
+.recent{
+  padding-left: 40rpx;
+  color: #fff;
+}
+.recentmore{
+  display: flex;
+  padding-left: 400rpx;
+  color: #fff;
+}
+ .recentmovies{
+  margin-top: 10rpx;
+  display: flex;
+  height: 240px;
+} 
+.recentmovies image{
+  width: 300rpx;
+  margin-left: 10px;
+  height: 180px;
+}
+.recentmovies text{
+  font-size: 12px;
+  padding-left: 25px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+}
+.coming{
+  padding-left: 40rpx;
+  color: #fff;
+}
+.comingmore{
+  display: flex;
+  padding-left: 400rpx;
+  color: #fff;
+}
+ .comingmovies{
+  margin-top: 10rpx;
+  display: flex;
+  height: 230px;
+} 
+.comingmovies image{
+  width: 300rpx;
+  margin-left: 10px;
+  height: 180px;
+}
+.comingmovies text{
+  font-size: 12px;
+  padding-left: 22px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+}

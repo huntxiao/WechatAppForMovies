@@ -1,0 +1,34 @@
+/* comingmore/comingmore.wxss */
+.coming{
+  line-height:30px;
+  font-family: 微软雅黑;
+  color: white;
+  text-align: center;
+  background-color: #555;
+}
+ .comingmovies{
+  width: 100%;
+} 
+ .comingmovies .m{
+  float: left;
+  width: 240rpx;
+  font-size: 12px;
+} 
+.comingmovies .m text{
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+}
+ .comingmovies .m:nth-child(3n-1){
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+} 
+.comingmovies image{
+  width: 240rpx;
+  /* margin-left: 10px; */
+  height: 130px;
+}
+.comingmovies text{
+   padding-left: 15rpx; 
+}

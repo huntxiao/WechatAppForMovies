@@ -1,0 +1,10 @@
+<!--pages/login/login.wxml-->
+<!-- <text>pages/login/login.wxml</text> -->
+<view class="center">
+  <view class='tou'>
+    <image src="../img/tou.gif" class='toui'></image>
+  </view>
+  <view class='xiao' bindtap='gotoLogin'>登录</view>
+  <view class='zi'>未 登 录</view>
+</view> 
+

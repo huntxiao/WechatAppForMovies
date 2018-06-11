@@ -1,0 +1,9 @@
+<!--more/more.wxml-->
+<view class='recent'><text>近期上映</text></view>
+<view class='recentmovies'>
+  <view class='m' wx:for="{{movdata.subjects}}" wx:for-index="idx" wx:for-item="movie">
+  <navigator url='../paper/paper?id={{movie.id}}'>
+    <image src="{{movie.images.small}}" mode='aspectFit'/><text>{{movie.title}}</text><text>豆瓣评分：{{movie.rating.average}}</text>
+  </navigator>
+  </view>
+</view>
